@@ -1,0 +1,160 @@
+{
+    "tests": [
+        {
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_vxrmyces/test_my_air_cargo_problems.py\", line 198, in test_AC_actions\n    self.ref_p1.actions(self.ref_p1.initial))\n  File \"/home/vmuser_vxrmyces/test_my_air_cargo_problems.py\", line 35, in assertActionSetsEqual\n    \"Your implementation created an extra action\")\nAssertionError: False is not true : Your implementation created an extra action\n",
+            "rubric_item_id": "5516",
+            "description": "AirCargoProblem correctly lists possible actions in a given state",
+            "result": "F"
+        },
+        {
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_vxrmyces/test_my_air_cargo_problems.py\", line 192, in test_AC_get_actions\n    self.assertActionSetsEqual(self.p1.actions_list, self.ref_p1.actions_list)\n  File \"/home/vmuser_vxrmyces/test_my_air_cargo_problems.py\", line 35, in assertActionSetsEqual\n    \"Your implementation created an extra action\")\nAssertionError: False is not true : Your implementation created an extra action\n",
+            "rubric_item_id": "5516",
+            "description": "AirCargoProblem correctly constructs all possible actions",
+            "result": "F"
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p1 returns the correct initial fluents",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p1 returns the correct goal fluents",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p1 returns an object of type problem",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p1 returns the correct initial values",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p2 returns the correct initial fluents",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p2 returns the correct goal fluents",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p2 returns an object of type problem",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p2 returns the correct initial values",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p3 returns the correct initial fluents",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p3 returns the correct goal fluents",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p3 returns an object of type problem",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "air_cargo_p3 returns the correct initial values",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "AirCargoProblem correctly updates state for a given action",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5519",
+            "description": "AirCargoProblem implements the ignore preconditions heuristic",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5516",
+            "description": "AirCargoProblem yields a correct solution when input to breadth_first_search",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5519",
+            "description": "Action levels have the correct number of actions",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5519",
+            "description": "Literal levels have the correct number of literals",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5519",
+            "description": "competing_needs_mutex behaves correctly",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5519",
+            "description": "inconsistent_effects_mutex behaves correctly",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5519",
+            "description": "inconsistent_support_mutex behaves correctly",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5519",
+            "description": "interference_mutex behaves correctly",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5519",
+            "description": "negation_mutex behaves correctly",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5519",
+            "description": "Serialization of mutexes is correct",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "5519",
+            "description": "levelsum heuristic behaves correctly",
+            "result": "."
+        }
+    ]
+}
