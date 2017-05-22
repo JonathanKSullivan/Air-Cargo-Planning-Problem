@@ -133,7 +133,7 @@ Download the one of the following yml files:
 
 ## Authors
 * **Udacity** - *Initial work* - [Air-Cargo-Planning-Problem](https://github.com/JonathanKSullivan/Air-Cargo-Planning-Problem)
-* **Jonathan Sulivan** - *Build Model* -
+* **Jonathan Sulivan**
 
 ## Acknowledgments
 * Hackbright Academy
